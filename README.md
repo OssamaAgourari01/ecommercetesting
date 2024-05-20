@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+### `cd ecommercetesting`
+### `npm install react-router-dom "react-icons/fa";
 ### `npm start`
 
 Runs the app in the development mode.\
