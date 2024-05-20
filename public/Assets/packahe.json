@@ -1,0 +1,40 @@
+{
+    "candles": [
+        {
+            "name": "Bougie de Noël",
+            "description": "Cadeau de Noël - Bougie parfumée de Noël pour femme",
+            "src": "Assets/candles/candle1.avif",
+            "stars": 4
+        },
+        {
+            "name": "Bougie de Noël",
+            "description": "Cadeau de Noël - Bougie parfumée de Noël pour femme",
+            "src": "Assets/candles/candle1.avif",
+            "stars": 4
+        },
+        {
+            "name": "Bougie de Noël",
+            "description": "Cadeau de Noël - Bougie parfumée de Noël pour femme",
+            "src": "Assets/candles/candle1.avif",
+            "stars": 4
+        },
+        {
+            "name": "Bougie de Noël",
+            "description": "Cadeau de Noël - Bougie parfumée de Noël pour femme",
+            "src": "Assets/candles/candle1.avif",
+            "stars": 4
+        },
+        {
+            "name": "Bougie de Noël",
+            "description": "Cadeau de Noël - Bougie parfumée de Noël pour femme",
+            "src": "Assets/candles/candle1.avif",
+            "stars": 4
+        },
+        {
+            "name": "Bougie de Noël",
+            "description": "Cadeau de Noël - Bougie parfumée de Noël pour femme",
+            "src": "Assets/candles/candle1.avif",
+            "stars": 4
+        },
+    ]
+}

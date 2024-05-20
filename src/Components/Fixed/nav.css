@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.styc-menu{
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+}
+.menu-nav{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 3rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+.menu-nav span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 0.2rem;
+}
+.top-header{
+    width: 100%;
+    padding: 5px;
+    background-color: #f6f7f8;
+}
+.top-nav{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.top-nav .top-nav-icon{
+    color: #ababab;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.top-nav p{
+    color: #ababab;
+    font-size: 16px;
+    font-weight: 500;
+}
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background-color: #18191a;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.bottom-nav .logo img{
+    width: 180px;
+}
+.Search-box{
+    margin-right: 20px;
+}
+.Search-box input{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 600px;
+    border: 1.5px solid orangered;
+    border-radius: 20px;
+}
+.Search-box button{
+    padding: 10px 16px;
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    color: #f6f7f8;
+    font-size: 20px;
+    transition: 0.4s;
+}
+.Search-box button:hover{
+    background-color: orangered;
+    color: #18191a;
+}
+.nav-btn button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: none;
+    border: none;
+    margin-right: 40px;
+    color: white;
+    font-size: 18px;
+    transition: 0.4s;
+    cursor: pointer;
+    position: relative;
+}
+.nav-btn button:hover{
+    background-color: orangered;
+    transform: scale(1.02,1.02);
+    color: #18191a;
+}
+.cart-num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    border-radius: 9px;
+    background-color: orangered;
+    width: 18px;
+    height: 18px;
+    font-size: 13px;
+    color: #f6f7f8;
+}
+@media screen and (max-width: 329px){
+    .bottom-nav{
+        padding: 50px;
+        margin-bottom: 50px ;
+    }
+    .top-header{
+        display: none;
+    }
+  }
+@media screen and (max-width: 1200px)  and (min-width : 701px){
+    .top-nav .top-nav-icon{
+        font-size: 20px;
+    }
+    .top-nav p{
+        font-size: 14px;
+    }
+    .bottom-nav .logo img{
+        width: 170px;
+    }
+    .Search-box{
+        margin-right: 12px;
+    }
+    .Search-box input{
+        padding: 7px;
+        font-size: 14px;
+        width: 350px;
+    }
+    .Search-box button{
+        padding: 4px 8px;
+        margin-left: 2px;
+    }
+    .nav-btn button{
+        margin-right: 10px;
+        font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .menu-nav{
+        display: flex;
+    }
+    .top-header{
+        padding: 0;
+    }
+    .bottom-nav{
+        flex-direction: column;
+    }
+    .top-nav .top-nav-icon{
+        font-size: 20px;
+    }
+    .top-nav p{
+        font-size: 14px;
+    }
+    .bottom-nav .logo img{
+        width: 100px;
+    }
+    .bottom-nav .logo img{
+        width: 150px;
+    }
+    .Search-box{
+        width: 100%;
+        align-items: center;
+    }
+    .Search-box input{
+        margin-top: 15px;
+        margin-left: 10%;
+        padding: 7px;
+        font-size: 14px;
+        width: 70%;
+    }
+    .open{
+        display: none !important; 
+    }
+    .Search-box, .nav-btn{
+        width: 100%;
+        z-index: 1900;
+        background-color: black;
+    }
+    .Search-box button{
+        padding: 4px 8px;
+    }
+    .nav-btn{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-btn button{
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-right: 20px;
+        font-size: 22px;
+    }
+    .Search-box{
+        margin: 0;
+    }
+    .cart-num{
+        height: 14px;
+        width: 14px;
+        border-radius: 7px;
+    }
+  }

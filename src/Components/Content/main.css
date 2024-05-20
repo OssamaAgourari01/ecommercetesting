@@ -1,0 +1,46 @@
+.hero-section{
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(0.8,0.8,0.8,0.8),rgba(0.7,0.7,0.7,0.7)) ,url('/public/herosec.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 40px;
+    color: beige;
+    margin-bottom: 30px;
+}
+.hero-section h1{
+    font-size: 44px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+.hero-section h3{
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+}
+.hero-section button{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 140px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 18px;
+}
+@media screen and (max-width: 700px){
+    .hero-section{
+        height: 370px;
+    }
+    .hero-section h1{
+        font-size: 40px;
+    }
+    .hero-section h3{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 1200px)  and (min-width : 701px){
+    
+}
