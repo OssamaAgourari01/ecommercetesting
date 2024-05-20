@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 ![Alt image](https://github.com/OssamaAgourari01/ecommercetesting/blob/master/Capture%20d'%C3%A9cran%202024-05-20%20010315.png)
+![Alt image](https://github.com/OssamaAgourari01/ecommercetesting/blob/master/Capture%20d'%C3%A9cran%202024-05-20%20010425.png)
+![Alt image](https://github.com/OssamaAgourari01/ecommercetesting/blob/master/Capture%20d'%C3%A9cran%202024-05-20%20010352.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
